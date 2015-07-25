@@ -6,6 +6,4 @@ ADD . /home/injila_service
 WORKDIR /home/injila_service
 RUN pip install -r requirements.txt
 
-EXPOSE 8080
-
 CMD ["python", "-u", "app.py"]
